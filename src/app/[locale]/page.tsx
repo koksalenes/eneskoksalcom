@@ -1,29 +1,13 @@
-import dynamic from "next/dynamic";
 import { locales } from "@/i18n/config";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Hero } from "@/components/sections/Hero";
 import { Marquee } from "@/components/sections/Marquee";
-
-const About = dynamic(() =>
-  import("@/components/sections/About").then((m) => ({ default: m.About })),
-);
-const Experience = dynamic(() =>
-  import("@/components/sections/Experience").then((m) => ({
-    default: m.Experience,
-  })),
-);
-const Skills = dynamic(() =>
-  import("@/components/sections/Skills").then((m) => ({ default: m.Skills })),
-);
-const Education = dynamic(() =>
-  import("@/components/sections/Education").then((m) => ({
-    default: m.Education,
-  })),
-);
-const Contact = dynamic(() =>
-  import("@/components/sections/Contact").then((m) => ({ default: m.Contact })),
-);
+import { About } from "@/components/sections/About";
+import { Experience } from "@/components/sections/Experience";
+import { Skills } from "@/components/sections/Skills";
+import { Education } from "@/components/sections/Education";
+import { Contact } from "@/components/sections/Contact";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
