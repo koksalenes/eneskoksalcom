@@ -104,6 +104,9 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${spaceGrotesk.variable} h-full antialiased`}
     >
       <head>
+        <noscript>
+          <style>{`*,*::before,*::after{opacity:1!important;transform:none!important;filter:none!important;animation:none!important;transition:none!important}`}</style>
+        </noscript>
         <meta
           httpEquiv="Content-Security-Policy"
           content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"

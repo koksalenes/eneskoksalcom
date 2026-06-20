@@ -334,3 +334,15 @@ body {
     animation: none !important;
   }
 }
+
+@media (scripting: none) {
+  *,
+  *::before,
+  *::after {
+    opacity: 1 !important;
+    transform: none !important;
+    filter: none !important;
+    animation: none !important;
+    transition: none !important;
+  }
+}
