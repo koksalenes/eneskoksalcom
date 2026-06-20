@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eneskoksal.com/sitemap.xml

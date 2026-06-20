@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "about": "Hakkımda",
+    "experience": "Deneyim",
+    "skills": "Yetenekler",
+    "education": "Eğitim",
+    "contact": "İletişim",
+    "menu": "Menü"
+  },
+  "hero": {
+    "greeting": "Merhaba, ben",
+    "name": "Enes Köksal",
+    "role": "Yazılım Mühendisi",
+    "rolesTyped": ["Yazılım Mühendisi", "Tam Yığın Geliştirici"],
+    "tagline": "Uygulamaları fikir aşamasından canlıya alınmasına kadar uçtan uca geliştiriyorum. Ağırlıklı olarak .NET ve TypeScript teknolojilerini kullanıyor; projelerimde temiz mimari, kullanıcı dostu arayüzler ve sürdürülebilir performans sağlamaya odaklanıyorum.",
+    "ctaContact": "İletişime geçin",
+    "ctaWork": "Deneyimi görüntüle",
+    "scroll": "Keşfetmek için kaydır",
+    "stats": {
+      "experience": "Yıllık deneyim",
+      "clients": "Hizmet verilen müşteri",
+      "satisfaction": "Müşteri memnuniyeti"
+    }
+  },
+  "about": {
+    "label": "Hakkımda",
+    "title": "Ürün Odaklı Mühendislik",
+    "lead": "Yazılım mühendisliği yetkinliklerini, ürün vizyonuyla harmanlayan bir geliştirici.",
+    "paragraphs": [
+      "Sürdürülebilir, yüksek performanslı ve ölçeklenebilir sistemler inşa ediyorum. Projelere bir ürün sahibi sorumluluğuyla yaklaşıyorum.",
+      "Teknik borcu yönetmek ve sağlam mimariler kurmak kadar, yazdığım kodun işletmenin temel hedeflerine hizmet etmesine de aynı derecede önem veriyorum."
+    ],
+    "highlights": {
+      "fullstack": {
+        "title": "Uçtan Uca",
+        "desc": "Veritabanı şemalarından piksel hassasiyetinde arayüzlere."
+      },
+      "architecture": {
+        "title": "Mimari",
+        "desc": "Ölçeklenebilirlik odaklı temiz tasarım."
+      },
+      "responsibility": {
+        "title": "Responsibility",
+        "desc": "Kurucu zihniyeti ve uçtan uca sorumluluk."
+      }
+    }
+  },
+  "experience": {
+    "label": "Deneyim",
+    "title": "Çalışma Geçmişim",
+    "items": {
+      "octopus": {
+        "role": "Yazılım Mühendisi",
+        "company": "Octopus Signage",
+        "period": "Nis 2026 - Devam Ediyor",
+        "location": "Kocaeli, Türkiye · Hibrit",
+        "bullets": [
+          "Binlerce dinamik ekranı ve dijital içeriği merkezi olarak yönetmek için Next.js ile yüksek performanslı bir CMS kontrol paneli geliştiriyoruz.",
+          "Arayüz bileşenlerini optimize ederek modüler, yeniden kullanılabilir ve ölçeklenebilir bir kod mimarisi oluşturup kullanıcı deneyimini iyileştiriyoruz.",
+          "Kesintisiz gerçek zamanlı veri senkronizasyonu sağlamak için backend ekipleriyle birlikte RESTful API entegrasyonları yapıyoruz."
+        ]
+      },
+      "founder": {
+        "role": "Yazılım Mühendisi & Kurucu",
+        "company": "Enes Köksal",
+        "period": "May 2025 - Devam Ediyor",
+        "location": "Türkiye · Uzaktan",
+        "bullets": [
+          ".NET, Nest.js ve Next.js araçları ile 5'ten fazla kurumsal müşteri için uçtan uca web uygulamaları tasarladım, geliştirdim ve teslim ettim.",
+          "İşletmelere teknik danışmanlık sağlayarak proje geliştirme süreçlerine katkıda bulundum."
+        ]
+      },
+      "freelancer": {
+        "role": "Yazılım Mühendisi",
+        "company": "Freelancer",
+        "period": "Tem 2024 - May 2025",
+        "location": "Türkiye · Uzaktan",
+        "bullets": [
+          "Freelance platformlarında 15'ten fazla farklı müşteri için özelleştirilmiş yazılım çözümleri başarıyla geliştirdim ve devreye aldım.",
+          "API entegrasyonları ve sağlam mimariler kurarak teslim edilen tüm projelerde %100 müşteri memnuniyeti sağladım."
+        ]
+      },
+      "tofas": {
+        "role": "Stajyer Veri Bilimci",
+        "company": "TOFAŞ",
+        "period": "Tem 2023 - Tem 2024",
+        "location": "Bursa, Türkiye · Hibrit",
+        "bullets": [
+          "Robotik üretim arızalarının erken tespitini sağlayan ve fabrika duruş süresini azaltan bir kestirimci bakım makine öğrenmesi modeli geliştirdik.",
+          "Manuel veri sınıflandırma görevlerini otomatikleştirmek için 3 farklı LLM tabanlı otomatik filtreleme ve kategorilendirme botu tasarladık.",
+          "Yönetime gerçek zamanlı operasyonel içgörüler sunmak için QlikSense, Grafana ve PowerBI ile 5'ten fazla etkileşimli yönetim paneli oluşturduk."
+        ]
+      }
+    }
+  },
+  "skills": {
+    "label": "Yetenekler",
+    "title": "Teknoloji Yığını",
+    "categories": {
+      "technologies": "Temel Teknolojiler",
+      "architecture": "Mimari & Tasarım",
+      "data": "Veri Yönetimi",
+      "testing": "Test Araçları",
+      "devtools": "Geliştirme Araçları",
+      "collaboration": "Takım İşbirliği"
+    }
+  },
+  "education": {
+    "label": "Eğitim",
+    "title": "Geçmiş",
+    "degree": "Mekatronik Mühendisliği",
+    "school": "Bursa Teknik Üniversitesi",
+    "period": "Ağu 2020 - Tem 2024",
+    "location": "Bursa, Türkiye",
+    "languages": "Diller",
+    "languageList": { "turkish": "Türkçe", "english": "İngilizce" },
+    "turkishLevel": "Ana dil",
+    "englishLevel": "B1",
+    "certificates": {
+      "title": "Sertifikalar",
+      "items": [
+        {
+          "name": "Teknofest İnsansız Kara Aracı Yarışması",
+          "issuer": "TEKNOFEST",
+          "date": "Mayıs 2023",
+          "credentialId": "48129",
+          "url": "https://www.t3kys.com/en/program/certificate/48129"
+        },
+        {
+          "name": "Teknofest Akıllı Ulaşım Yarışması",
+          "issuer": "TEKNOFEST",
+          "date": "Mayıs 2023",
+          "credentialId": "47480",
+          "url": "https://www.t3kys.com/en/program/certificate/47480"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "label": "İletişim",
+    "title": "İletişime Geçin",
+    "text": "Aklınızdaki fikri değerlendirmek veya merhaba demek için istediğiniz zaman ulaşabilirsiniz.",
+    "cta": "Merhaba de",
+    "emailLabel": "E-posta",
+    "socials": "Bağlantılar",
+    "sendEmail": "E-posta gönder",
+    "copyEmail": "E-postayı kopyala",
+    "clickToCopy": "Kopyalamak için tıkla",
+    "copied": "Kopyalandı!"
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır."
+  },
+  "theme": { "toggle": "Temayı değiştir", "light": "Açık", "dark": "Koyu" },
+  "palette": {
+    "toggle": "Renk paletini değiştir",
+    "orange": "Turuncu & Kobalt",
+    "purple": "Mor & Turkuaz",
+    "charcoal": "Antrasit & Neon"
+  },
+  "locale": { "switch": "Dili değiştir", "en": "English", "tr": "Türkçe" },
+  "loading": "Yükleniyor…",
+  "notFound": {
+    "code": "404",
+    "title": "Yığında kaybolduk",
+    "text": "Aradığınız sayfa mevcut değil veya taşınmış.",
+    "cta": "Ana sayfaya dön"
+  }
+}

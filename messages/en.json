@@ -1,0 +1,169 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "education": "Education",
+    "contact": "Contact",
+    "menu": "Menu"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Enes Köksal",
+    "role": "Software Engineer",
+    "rolesTyped": ["Software Engineer", "Full-Stack Developer"],
+    "tagline": "I develop applications end-to-end, from concept to production. I primarily use .NET and TypeScript technologies, focusing on clean architecture, user-friendly interfaces, and sustainable performance in my projects.",
+    "ctaContact": "Get in touch",
+    "ctaWork": "View experience",
+    "scroll": "Scroll to explore",
+    "stats": {
+      "experience": "Years building",
+      "clients": "Clients served",
+      "satisfaction": "Client satisfaction"
+    }
+  },
+  "about": {
+    "label": "About",
+    "title": "Product-Oriented Engineering",
+    "lead": "A developer who blends software engineering skills with a product vision.",
+    "paragraphs": [
+      "I build sustainable, high-performance, and scalable systems. I approach projects with the responsibility of a product owner.",
+      "I place equal importance on ensuring that the code I write serves the core objectives of the business, as I do on managing technical debt and building robust architectures."
+    ],
+    "highlights": {
+      "fullstack": {
+        "title": "Full-Stack",
+        "desc": "From database schemas to pixel-perfect interfaces."
+      },
+      "architecture": {
+        "title": "Architecture",
+        "desc": "Clean design with a focus on scalability."
+      },
+      "responsibility": {
+        "title": "Responsibility",
+        "desc": "Founding mindset and end-to-end accountability."
+      }
+    }
+  },
+  "experience": {
+    "label": "Experience",
+    "title": "My Work History",
+    "items": {
+      "octopus": {
+        "role": "Software Engineer",
+        "company": "Octopus Signage",
+        "period": "Apr 2026 - Present",
+        "location": "Kocaeli, Türkiye · Hybrid",
+        "bullets": [
+          "Actively developing a high-performance CMS control panel using Next.js to centrally manage thousands of dynamic displays and digital content.",
+          "Creating a modular, reusable, and scalable code architecture by optimizing interface components to improve user experience.",
+          "Collaborating with backend teams to integrate RESTful APIs ensuring seamless real-time data synchronization."
+        ]
+      },
+      "founder": {
+        "role": "Software Engineer & Founder",
+        "company": "Enes Köksal",
+        "period": "May 2025 - Present",
+        "location": "Türkiye · Remote",
+        "bullets": [
+          "Designed, developed, and delivered end-to-end web applications for 5+ enterprise clients using .NET, Nest.js, and Next.js frameworks.",
+          "Contributed to project development processes by providing technical consulting to businesses."
+        ]
+      },
+      "freelancer": {
+        "role": "Software Engineer",
+        "company": "Freelancer",
+        "period": "Jul 2024 - May 2025",
+        "location": "Türkiye · Remote",
+        "bullets": [
+          "Successfully engineered and deployed customized software solutions for 15+ diverse clients on freelance platforms.",
+          "Built API integrations and robust architectures, maintaining a 100% client satisfaction rate across all delivered projects."
+        ]
+      },
+      "tofas": {
+        "role": "Intern Data Scientist",
+        "company": "TOFAŞ",
+        "period": "Jul 2023 - Jul 2024",
+        "location": "Bursa, Türkiye · Hybrid",
+        "bullets": [
+          "Developed a predictive maintenance machine learning model enabling early detection of robotic production faults, reducing factory downtime.",
+          "Designed and implemented 3 LLM-based automated filtering and categorization bots to automate manual data classification tasks.",
+          "Created 5+ interactive admin dashboards using QlikSense, Grafana, and PowerBI for real-time operational insights."
+        ]
+      }
+    }
+  },
+  "skills": {
+    "label": "Skills",
+    "title": "Technology Stack",
+    "categories": {
+      "technologies": "Core Technologies",
+      "architecture": "Architecture & Design",
+      "data": "Data Management",
+      "testing": "Test Tools",
+      "devtools": "Development Tools",
+      "collaboration": "Team Collaboration"
+    }
+  },
+  "education": {
+    "label": "Education",
+    "title": "Background",
+    "degree": "Mechatronics Engineering",
+    "school": "Bursa Technical University",
+    "period": "Aug 2020 - Jul 2024",
+    "location": "Bursa, Türkiye",
+    "languages": "Languages",
+    "languageList": { "turkish": "Turkish", "english": "English" },
+    "turkishLevel": "Native",
+    "englishLevel": "B1",
+    "certificates": {
+      "title": "Certificates",
+      "items": [
+        {
+          "name": "Teknofest Unmanned Ground Vehicle Competition",
+          "issuer": "TEKNOFEST",
+          "date": "May 2023",
+          "credentialId": "48129",
+          "url": "https://www.t3kys.com/en/program/certificate/48129"
+        },
+        {
+          "name": "Teknofest Smart Transportation Competition",
+          "issuer": "TEKNOFEST",
+          "date": "May 2023",
+          "credentialId": "47480",
+          "url": "https://www.t3kys.com/en/program/certificate/47480"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Get in Touch",
+    "text": "You can reach out anytime to discuss an idea you have or simply to say hello.",
+    "cta": "Say hello",
+    "emailLabel": "Email",
+    "socials": "Links",
+    "sendEmail": "Send email",
+    "copyEmail": "Copy email",
+    "clickToCopy": "Click to copy",
+    "copied": "Copied!"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "theme": { "toggle": "Toggle theme", "light": "Light", "dark": "Dark" },
+  "palette": {
+    "toggle": "Switch color palette",
+    "orange": "Orange & Cobalt",
+    "purple": "Purple & Cyan",
+    "charcoal": "Charcoal & Neon"
+  },
+  "locale": { "switch": "Switch language", "en": "English", "tr": "Türkçe" },
+  "loading": "Loading…",
+  "notFound": {
+    "code": "404",
+    "title": "Lost in the stack",
+    "text": "The page you're looking for doesn't exist or has been moved.",
+    "cta": "Back to home"
+  }
+}

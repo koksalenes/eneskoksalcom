@@ -1,0 +1,47 @@
+# Enes Koksal
+
+> Full-stack software engineer building scalable applications with .NET and TypeScript.
+
+Enes Koksal is a software engineer based in Türkiye. He builds sustainable, high-performance, and scalable systems end-to-end — from database schemas to pixel-perfect interfaces — approaching each project with a product owner's mindset.
+
+## Current Positions
+
+- Software Engineer at Octopus Signage (Apr 2026 – Present): Developing a high-performance CMS control panel with Next.js to manage thousands of dynamic digital displays.
+- Founder at Enes Koksal (May 2025 – Present): Designing and delivering end-to-end web applications for 5+ enterprise clients using .NET, Nest.js, and Next.js.
+
+## Previous Experience
+
+- Software Engineer at Freelancer (Jul 2024 – May 2025): Custom software solutions for 15+ clients, 100% satisfaction rate.
+- Intern Data Scientist at TOFAŞ (Jul 2023 – Jul 2024): Predictive ML model for robot fault detection; 3 LLM-based automation bots; 5+ dashboards (QlikSense, Grafana, PowerBI).
+
+## Education
+
+- Mechatronics Engineering, Bursa Technical University (2020 – 2024)
+
+## Core Skills
+
+- Languages & Runtimes: C#, TypeScript, JavaScript, Node.js
+- Backend: .NET, ASP.NET Core, Nest.js
+- Frontend: React, Next.js, Tailwind CSS, Shadcn, Zustand, Redux Toolkit, React Query
+- Databases: PostgreSQL, MSSQL, MongoDB, Redis
+- Messaging: RabbitMQ, WebSockets
+- Architecture: Clean Architecture, Event-Driven, Microservices, Hexagonal Architecture, REST APIs
+- Testing: xUnit, Moq, FluentAssertions, Jest, Vitest, RTL, Cypress, Playwright, Testcontainers
+- DevOps: Docker, Kubernetes, GitHub Actions
+- Tools: Postman, Swagger, Sentry, SonarQube, Figma
+
+## Languages
+
+- Turkish: Native
+- English: B1
+
+## Contact
+
+- Email: contact@eneskoksal.com
+- LinkedIn: https://linkedin.com/in/koksalenes
+- GitHub: https://github.com/koksalenes
+- Website: https://eneskoksal.com
+
+## Pages
+
+- [Full portfolio](https://eneskoksal.com/en): Complete portfolio with experience, skills, and contact info.
