@@ -25,7 +25,6 @@ export function Education() {
         <div className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           <Reveal>
             <div className="border-border bg-surface/60 relative h-full overflow-hidden rounded-3xl border p-7">
-              <div className="aurora absolute -top-10 -right-10 h-32 w-32 rounded-full opacity-40" />
               <span className="bg-accent-soft text-accent grid h-12 w-12 place-items-center rounded-xl">
                 <GraduationCap className="h-6 w-6" />
               </span>
@@ -68,7 +67,7 @@ export function Education() {
                           duration: 1,
                           ease: [0.22, 1, 0.36, 1] as const,
                         }}
-                        className="from-accent to-accent-2 h-full rounded-full bg-gradient-to-r"
+                        className="bg-accent h-full rounded-full"
                       />
                     </div>
                   </div>

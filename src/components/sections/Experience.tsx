@@ -30,11 +30,6 @@ const icons: Record<ExperienceId, ComponentType<SVGProps<SVGSVGElement>>> = {
   tofas: Cpu,
 };
 
-const GRADIENT_BORDER = `
-  linear-gradient(var(--background), var(--background)) padding-box,
-  linear-gradient(135deg, var(--accent), var(--accent-2)) border-box
-`.trim();
-
 export function Experience() {
   const t = useTranslations("experience");
 
@@ -49,7 +44,7 @@ export function Experience() {
         <div className="relative mt-14">
           <span
             aria-hidden
-            className="from-accent via-border absolute top-2 bottom-2 left-[19px] w-px bg-gradient-to-b to-transparent sm:left-[27px]"
+            className="bg-accent/20 absolute top-2 bottom-2 left-[19px] w-px sm:left-[27px]"
           />
 
           <m.ol
@@ -74,34 +69,23 @@ export function Experience() {
                   className="relative pl-12 sm:pl-20"
                 >
                   <span
-                    className="text-accent absolute top-1 left-0 grid h-10 w-10 place-items-center rounded-full sm:h-14 sm:w-14"
-                    style={{
-                      background: GRADIENT_BORDER,
-                      border: "1.5px solid transparent",
-                      boxShadow: "0 0 0 4px var(--background)",
-                    }}
+                    className="text-accent border-accent bg-background absolute top-1 left-0 grid h-10 w-10 place-items-center rounded-full border sm:h-14 sm:w-14"
+                    style={{ boxShadow: "0 0 0 4px var(--background)" }}
                   >
                     <Icon className="h-4 w-4 sm:h-6 sm:w-6" />
                   </span>
 
                   <m.div
                     whileHover={{ y: -3 }}
-                    className="group border-border bg-surface/70 hover:border-accent/40 relative overflow-hidden rounded-2xl border p-5 transition-colors sm:p-7"
+                    className="group border-border bg-surface/70 hover:border-accent/40 hover:bg-surface relative overflow-hidden rounded-2xl border p-5 transition-colors sm:p-7"
                   >
-                    <div
-                      className="absolute -top-16 -right-16 h-40 w-40 rounded-full opacity-0 blur-3xl transition-opacity duration-500 group-hover:opacity-25"
-                      style={{
-                        background:
-                          "linear-gradient(110deg, var(--accent), var(--accent-2))",
-                      }}
-                    />
 
                     <div className="flex flex-wrap items-start justify-between gap-4">
                       <div>
                         <h3 className="font-display text-lg leading-tight font-semibold sm:text-xl">
                           {role}
                         </h3>
-                        <p className="text-gradient text-sm font-medium">
+                        <p className="text-accent text-sm font-medium">
                           {company}
                         </p>
                       </div>

@@ -41,7 +41,7 @@ export function Header() {
     <header className="fixed inset-x-0 top-0 z-50">
       <m.div
         style={{ scaleX: scrollYProgress }}
-        className="from-accent to-accent-2 absolute inset-x-0 top-0 h-0.5 origin-left bg-gradient-to-r"
+        className="bg-accent absolute inset-x-0 top-0 h-0.5 origin-left"
       />
       <div
         className={cn(
@@ -54,9 +54,8 @@ export function Header() {
           aria-label="eneskoksal.com"
           className="group flex items-center gap-2 rounded-full px-1 transition-all"
         >
-          <span className="font-mono text-sm font-medium tracking-tight">
-            {"eneskoksal"}
-            <span className="text-gradient">{".com"}</span>
+          <span className="text-accent font-mono text-sm font-medium tracking-tight">
+            {"eneskoksal.com"}
           </span>
         </a>
 

@@ -53,14 +53,6 @@ export function Contact() {
     >
       <div className="border-border bg-surface/60 relative overflow-hidden rounded-[2rem] border p-8 sm:p-14">
         <div className="pointer-events-none absolute inset-0 -z-10">
-          <div className="aurora animate-float-slow absolute -top-10 -left-10 h-72 w-72 rounded-full" />
-          <div
-            className="aurora animate-float-slower absolute right-0 -bottom-16 h-72 w-72 rounded-full"
-            style={{
-              background:
-                "radial-gradient(circle, var(--accent-2), transparent 60%)",
-            }}
-          />
           <div className="dotted-bg absolute inset-0 opacity-50" />
         </div>
 

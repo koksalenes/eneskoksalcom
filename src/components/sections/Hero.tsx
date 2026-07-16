@@ -30,7 +30,7 @@ function RotatingRole({ roles }: Readonly<{ roles: string[] }>) {
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: "-100%", opacity: 0 }}
           transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] as const }}
-          className="text-gradient whitespace-nowrap"
+          className="text-accent whitespace-nowrap"
         >
           {roles[i]}
         </m.span>
@@ -52,14 +52,6 @@ export function Hero() {
     >
       <div className="pointer-events-none absolute inset-0 -z-10">
         <div className="grid-bg absolute inset-0 opacity-70" />
-        <div className="aurora animate-float-slow absolute top-10 -left-24 h-[26rem] w-[26rem] rounded-full" />
-        <div
-          className="aurora animate-float-slower absolute -right-20 bottom-0 h-[24rem] w-[24rem] rounded-full"
-          style={{
-            background:
-              "radial-gradient(circle, var(--accent-2), transparent 60%)",
-          }}
-        />
       </div>
 
       <div className="mx-auto grid w-full max-w-6xl items-center gap-12 px-5 sm:px-8 lg:grid-cols-[1.15fr_0.85fr]">
@@ -99,7 +91,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.15, ease }}
               className="mt-1 shrink-0 lg:hidden"
             >
-              <div className="border-border-strong from-accent/30 to-accent-2/20 relative h-24 w-24 overflow-hidden rounded-full border-2 bg-gradient-to-br shadow-lg sm:h-28 sm:w-28">
+              <div className="border-border-strong bg-surface relative h-24 w-24 overflow-hidden rounded-full border-2 shadow-lg sm:h-28 sm:w-28">
                 <Image
                   src="/profile/profile-mobile.webp"
                   alt="Enes Köksal"
@@ -194,7 +186,6 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.2, ease }}
           className="relative mx-auto hidden w-full max-w-sm lg:block"
         >
-          <div className="from-accent/30 to-accent-2/20 absolute -inset-3 -z-10 rounded-[2rem] bg-gradient-to-br blur-2xl" />
           <div className="border-border-strong bg-surface relative overflow-hidden rounded-[2rem] border shadow-2xl">
             <Image
               src="/profile/profile-desktop.webp"
@@ -206,13 +197,6 @@ export function Hero() {
             />
             <div className="from-foreground/20 pointer-events-none absolute inset-0 bg-gradient-to-t via-transparent to-transparent" />
           </div>
-          <m.div
-            animate={{ rotate: [0, 6, 0, -6, 0] }}
-            transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
-            className="border-border-strong bg-surface absolute -top-4 -right-4 grid h-16 w-16 place-items-center rounded-2xl border font-mono text-xs font-semibold shadow-lg"
-          >
-            {"</>"}
-          </m.div>
         </m.div>
       </div>
       <div className="pointer-events-none absolute inset-x-0 bottom-6 hidden justify-center md:flex">

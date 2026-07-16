@@ -106,7 +106,6 @@ export const skillCategories: SkillCategory[] = [
       "Shadcn",
       "Tailwind CSS",
       "Node.js",
-      "Kubernetes",
       "Serilog",
       "Pino",
     ],
@@ -116,9 +115,7 @@ export const skillCategories: SkillCategory[] = [
     span: "md",
     skills: [
       "Clean Architecture",
-      "Event-Driven Architecture",
       "REST APIs",
-      "Microservices Architecture",
       "Hexagonal Architecture",
     ],
   },
@@ -134,6 +131,7 @@ export const skillCategories: SkillCategory[] = [
       "Entity Framework",
       "Prisma",
       "CDN",
+      "Blob Storages"
     ],
   },
   {
@@ -142,8 +140,6 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       "xUnit",
       "Moq",
-      "FluentAssertions",
-      "WebApplicationFactory",
       "Jest",
       "Vitest",
       "RTL",

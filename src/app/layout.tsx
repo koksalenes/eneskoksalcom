@@ -74,10 +74,9 @@ const personJsonLd = {
     "PostgreSQL",
     "MongoDB",
     "Redis",
+    "RabbitMQ",
     "Docker",
-    "Kubernetes",
     "Clean Architecture",
-    "Microservices",
   ],
   alumniOf: {
     "@type": "CollegeOrUniversity",
@@ -109,7 +108,7 @@ export default function RootLayout({
         </noscript>
         <meta
           httpEquiv="Content-Security-Policy"
-          content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"
+          content="default-src 'self'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://cloudflareinsights.com; object-src 'none'; base-uri 'self'; form-action 'self'"
         />
         <script
           dangerouslySetInnerHTML={{
